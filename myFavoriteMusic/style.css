@@ -1,0 +1,59 @@
+header {
+  text-align: center;
+  height: 140px;
+  position: absolute;
+  top: 0;
+  right: 0;
+  left: 0;
+}
+
+main {
+  position: absolute;
+  top: 140px;
+  left: 0;
+  right: 0;
+  bottom: 50px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  flex-wrap: nowrap;
+}
+
+.twoSongsC {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+  margin: 0;
+  padding: 0;
+}
+
+.songC {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+footer {
+  position: fixed;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  height: 50px;
+  text-align: center;
+  background-color: #060047;
+  color: white;
+}
+
+img {
+  border-radius: 50%;
+}
+
+h4, h5 {
+  margin: 5px;
+}
+
+h1 {
+  font-family: monospace;
+}
