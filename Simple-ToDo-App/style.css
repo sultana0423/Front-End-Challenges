@@ -1,0 +1,72 @@
+:root {
+  --mh-color: #FDFFD2 ;
+  --listC-color: #DA7297;
+  --itemsC-color: #FFF6E9;
+  --headerText-color: #667BC6;
+}
+html, body {
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-evenly;
+  height: 140px;
+  position: absolute;
+  top: 0;
+  right: 0;
+  left: 0;
+  background-color: var(--mh-color);
+  color: var(--headerText-color);
+}
+
+main {
+  position: absolute;
+  top: 140px;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  background-color: var(--mh-color);
+}
+
+.listC {
+  background-color: var(--listC-color);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  margin: 25px;
+}
+
+.listItems {
+  background-color: var(--itemsC-color);
+  margin: 15px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  width: 90%;
+}
+
+.inputC {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-evenly;
+  margin: 15px;
+}
+ 
+ #addBtn {
+  margin: 5px;
+ }
+input {
+  margin: 5px;
+}
+
