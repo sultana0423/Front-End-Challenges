@@ -1,13 +1,15 @@
 :root {
-  --mh-color: #FDFFD2 ;
   --listC-color: #DA7297;
-  --itemsC-color: #FFF6E9;
+  --itemsC-color: #ffffff;
   --headerText-color: #667BC6;
+  --mh-color: #FDFFD2;
+  --itemsF-color: #DA7297;
 }
 html, body {
   margin: 0;
   padding: 0;
 }
+
 
 header {
   display: flex;
@@ -19,8 +21,9 @@ header {
   top: 0;
   right: 0;
   left: 0;
-  background-color: var(--mh-color);
   color: var(--headerText-color);
+  font-family: Verdana;
+  background-color: var(--mh-color);
 }
 
 main {
@@ -43,6 +46,7 @@ main {
   align-items: center;
   justify-content: space-between;
   margin: 25px;
+  border-radius: 10px;
 }
 
 .listItems {
@@ -53,6 +57,8 @@ main {
   align-items: center;
   justify-content: flex-start;
   width: 90%;
+  border-radius: 10px;
+  color: var(--itemsF-color);
 }
 
 .inputC {
@@ -63,10 +69,50 @@ main {
   margin: 15px;
 }
  
- #addBtn {
-  margin: 5px;
- }
+  
 input {
   margin: 5px;
+  border: solid 3px var(--headerText-color);
+  padding: 5px;
 }
 
+button {
+  border-radius: 3px;
+  border: none;
+  padding: 5px;
+  margin: 5px;
+  font-weight: bold;
+}
+
+#addBtn {
+  background-color: #00DFA2;
+  color: white;
+}
+
+#addBtn:hover {
+  background-color: white;
+  color: #00DFA2;
+}
+
+#addBtn:active {
+  background-color: #00DFA2;
+  color: white;
+}
+.deleteBtn {
+  background-color: #FF0060;
+  color: white;
+}
+
+.deleteBtn:hover {
+  background-color: black;
+  color: #FF0060;
+}
+
+.deleteBtn:active {
+  background-color: #FF0060;
+  color: white;
+}
+
+li {
+  font-family: Verdana;
+}
