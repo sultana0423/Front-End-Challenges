@@ -13,3 +13,10 @@ Challenges:
 - Navigation with listed items;
 - A Section;
 - Footer;
+
+4- Simple Todo App
+Create a todo webpage:
+
+Feature:
+(1) Clean UI.
+(2) Save todo in local storage.
