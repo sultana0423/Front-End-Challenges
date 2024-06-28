@@ -49,7 +49,7 @@ main {
   border-radius: 10px;
 }
 
-.listItems {
+#listItems {
   background-color: var(--itemsC-color);
   margin: 15px;
   display: none;
