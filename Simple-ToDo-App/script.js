@@ -45,8 +45,8 @@ let taskName = "task"
             const taskItemToDelete = event.target.parentElement;
             const taskKeyC = document.getElementById('taskKey');
             const taskKey = taskKeyC.value;
-             ulE.removeChild(taskItemToDelete);
              localStorage.removeItem(taskKey.toString);
+           ulE.removeChild(taskItemToDelete);
              
         }
 
