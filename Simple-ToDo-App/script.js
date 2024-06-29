@@ -20,7 +20,7 @@ let taskName = "task"
             if (task !== "") {
 
                 localStorage.setItem(taskName + taskIndex.toString, task);
-                let taskKey = taskName + taskIndex.toString;
+                let taskKey = taskName + taskIndex.toString();
                 const listItemsC = document.getElementById('listItems');
                 const taskItem = document.createElement('li');
                 taskItem.innerHTML = `<span>${task}</span><button id="deleteBtn">Delete</button><span id="taskKey" style="display: none;">${taskKey}</span>`;
@@ -45,7 +45,7 @@ let taskName = "task"
             const taskItemToDelete = event.target.parentElement;
             const taskKeyC = document.getElementById('taskKey');
             const taskKey = taskKeyC.value;
-             localStorage.removeItem(taskKey.toString);
+             localStorage.removeItem(taskKey.toString());
            ulE.removeChild(taskItemToDelete);
              
         }
