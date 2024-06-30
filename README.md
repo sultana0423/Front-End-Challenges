@@ -21,9 +21,4 @@ Feature:
 (1) Clean UI.
 (2) Save todo in local storage.
 
-5- Make a CSS Blog div with Flex with this stracture: 
-.<div>
-.<img/>
-.<h2></h2>
-.<p></p>
-.</div>
+5- Make a CSS Blog div with Flex
