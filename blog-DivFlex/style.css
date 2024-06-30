@@ -1,0 +1,34 @@
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  background-color: #f8f6f2;
+  margin: 0;
+}
+
+div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+  background-color: white;
+  padding: 15px;
+  border-radius: 3px;
+  box-shadow: 10px 10px 5px 0px rgba(89,168,206,0.9);
+  -webkit-box-shadow: 10px 10px 5px 0px rgba(89,168,206,0.9);
+  -moz-box-shadow: 10px 10px 5px 0px rgba(89,168,206,0.9);
+
+}
+
+p {
+  margin: 0;
+  width: 400px;
+  color: #533c26;
+  font-weight: bold;
+}
+
+h2 {
+  font-style: italic;
+  color: #2d4f79;
+}
