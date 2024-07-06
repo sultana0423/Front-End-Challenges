@@ -1,0 +1,23 @@
+body {
+  margin: 0; 
+  padding: 0;
+  height: 100vh;
+}
+
+ div {
+  width: 100%;
+  height: auto;
+  margin: 0;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+ }
+
+ form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+ }
+
+ 
