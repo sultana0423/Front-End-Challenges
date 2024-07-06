@@ -21,4 +21,6 @@ Feature:
 (1) Clean UI.
 (2) Save todo in local storage.
 
-5- Make a CSS Blog div with Flex
+5- Make a CSS Blog div with Flex.
+
+6- Create a Styled form with any styles you would like to add.
