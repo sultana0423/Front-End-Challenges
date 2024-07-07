@@ -2,6 +2,11 @@ body {
   margin: 0; 
   padding: 0;
   height: 100vh;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  background-color: #121481;
+
 }
 
  div {
@@ -18,6 +23,17 @@ body {
   display: flex;
   flex-direction: column;
   justify-content: center;
+  font-family: Verdana;
+  background-color: #FFEAE3;
+  padding: 30px;
+  border-radius: 3px;
  }
 
- 
+ button {
+  background-color: #FFB1B1;
+  border: none;
+  padding: 5px;
+  border-radius: 5px;
+  width: 100%;
+  height: auto;
+ }
