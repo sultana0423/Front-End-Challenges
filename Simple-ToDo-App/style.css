@@ -5,10 +5,10 @@
   --mh-color: #FDFFD2;
   --itemsF-color: #DA7297;
 }
-html, body {
+/* html, body {
   margin: 0;
   padding: 0;
-}
+} */
 
 
 header {
