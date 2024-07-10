@@ -5,7 +5,12 @@ body {
   display: flex;
   flex-direction: row;
   align-items: center;
-  background-color: #121481;
+  /*
+* Created with https://www.css-gradient.com
+* Gradient link: https://www.css-gradient.com/?c1=fff9db&c2=ffc7ed&gt=l&gd=dbl
+*/
+background: #FFF9DB;
+background: linear-gradient(45deg, #FFF9DB, #FFC7ED);
 
 }
 
@@ -24,16 +29,42 @@ body {
   flex-direction: column;
   justify-content: center;
   font-family: Verdana;
-  background-color: #FFEAE3;
+  background-color: #FFF8DB;
   padding: 30px;
-  border-radius: 3px;
+  border-radius: 10px;
  }
 
  button {
-  background-color: #FFB1B1;
+  background-color: #FFC7ED;
   border: none;
   padding: 5px;
   border-radius: 5px;
   width: 100%;
   height: auto;
+  color: #304463;
+  font-weight: bold;
  }
+
+ button:hover {
+  background-color: #7D8ABC;
+  color: white;
+ }
+
+ button:active {
+  background-color: #FFC7ED;
+  color: #304463;
+ }
+
+ label, input {
+  margin: 5px;
+ }
+
+ input {
+  border: solid 1px #FFC7ED;
+ }
+
+ label {
+  color: #304463;
+  font-weight: bold;
+ }
+
