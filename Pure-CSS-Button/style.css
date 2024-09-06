@@ -1,0 +1,32 @@
+body {
+  background-color: #F5F5F5;
+}
+
+button {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 90px;
+  height: 40px;
+  font-family: Verdana;
+  text-transform: uppercase;
+  font-weight: bold;
+  border: none;
+  background-color: #48CFCB;
+  color: #424242;
+  -webkit-box-shadow: 10px 10px 10px 0px rgba(34,151,153,0.83);
+-moz-box-shadow: 10px 10px 10px 0px rgba(34,151,153,0.83);
+box-shadow: 10px 10px 10px 0px rgba(34,151,153,0.83);
+}
+
+button:hover {
+  background-color: #424242;
+  color: #48CFCB;
+  border-radius: 50%;
+  transition: border-radius 1s;
+  -webkit-box-shadow: 10px 10px 10px 0px rgba(66,66,66,1);
+-moz-box-shadow: 10px 10px 10px 0px rgba(66,66,66,1);
+box-shadow: 10px 10px 10px 0px rgba(66,66,66,1);
+ 
+}
