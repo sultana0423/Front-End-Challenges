@@ -23,4 +23,6 @@ Feature:
 
 5- Make a CSS Blog div with Flex.
 
-6- Create a Styled form with any styles you would like to add.
+6- Create a Styled form with any styles you would like to add.   
+
+7- Pure CSS Button
