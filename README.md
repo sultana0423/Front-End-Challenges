@@ -25,4 +25,6 @@ Feature:
 
 6- Create a Styled form with any styles you would like to add.   
 
-7- Pure CSS Button
+7- Pure CSS Button  
+
+8- Color Palette Collection 
