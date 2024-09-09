@@ -1,0 +1,29 @@
+.color--1 {
+  background: #313866;
+}
+.color--2 {
+  background: #504099;
+}
+.color--3 {
+  background: #974EC3;
+}
+.color--4 {
+  background: #FE7BE5;
+}
+.color--5 {
+  background: #F2AFEF;
+}
+
+
+
+
+/* CREATION STYLES (ignore) */
+body {
+  display: flex;
+  margin: 0;
+}
+
+.color {
+  flex: 1;
+  height: 100vh;
+}
