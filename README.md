@@ -30,3 +30,9 @@ Feature:
 8- Color Palette Collection 
 
 9- Gradient Background
+
+10- Basic HTML Page:
+Create a simple html page that contains the following:
+Header with company name or logo and nav links (does not need to be functional)
+Body with a header and content
+Footer
