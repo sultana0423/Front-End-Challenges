@@ -32,7 +32,16 @@ Feature:
 9- Gradient Background
 
 10- Basic HTML Page:
+
 Create a simple html page that contains the following:
 Header with company name or logo and nav links (does not need to be functional)
 Body with a header and content
 Footer
+
+11- HTML/CSS loading screen page
+
+Create a simple fullscreen page that has a loader at the center of the page with pure CSS only.
+
+- Loader must be at the center of the page
+- Be creative and use your own code
+- Make use of animations if possible
