@@ -1,0 +1,46 @@
+html {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: white;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+.BigCon {
+  background-color: black;
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.S {
+  width: 100px;
+  height: 100px;
+  background-color: blue;
+  position: absolute;
+  top: 0;
+  left: 0;
+  border-radius: 20%;
+  margin: 20px;
+  animation: S 5s infinite linear;
+}
+@keyframes S {
+  0% {background-color: blue;}
+  25% {}
+  50% {}
+  75% {}
+  100% {}
+}
+.C {
+  background-color: green;
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+}
