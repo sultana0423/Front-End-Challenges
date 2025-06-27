@@ -20,9 +20,20 @@ body {
 }
 
  .burger {
-    /* width: 100%;
-    height: 100%; */
-    overflow: visible;
+    /* background-color: black; */
+    width: 500px;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    padding: 0;
+    align-items: center;
+    justify-content: center;
+ }
+
+ .burger:hover {
+     
+    justify-content: space-around;
+    
  }
 #bunTop {
     width: 400px;
@@ -42,21 +53,21 @@ body {
 }
 
 #let {
-    width: 100%;
+    width: 400px;
     height: 15px;
     background-color: #85C003;
    border-radius: 15px;
 }
 
 #tom {
-    width: 100%;
+    width: 400px;
     height: 25px;
     background-color: #B71B17;
     border-radius: 15px;
 }
 
 #patty {
-    width: 100%;
+    width: 400px;
     height: 35px;
     background-color: #643113;
     border-radius: 15px;
