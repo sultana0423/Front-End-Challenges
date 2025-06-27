@@ -45,3 +45,7 @@ Create a simple fullscreen page that has a loader at the center of the page with
 - Loader must be at the center of the page
 - Be creative and use your own code
 - Make use of animations if possible
+
+12 - Hamburger Menu
+
+We want to see your most creative hamburger menu. If you're looking to test your animation skills, transition the hamburger menu into something else on hover/click!
