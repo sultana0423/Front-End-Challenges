@@ -49,3 +49,7 @@ Create a simple fullscreen page that has a loader at the center of the page with
 12 - Hamburger Menu
 
 We want to see your most creative hamburger menu. If you're looking to test your animation skills, transition the hamburger menu into something else on hover/click!
+
+13- Centering Divs and Content with CSS Grid and Flex
+
+Center four divs, each with a verying amount of content - and center the content of these divs. Keep all divs the same height.
