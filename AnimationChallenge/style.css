@@ -24,24 +24,25 @@ body {
   width: 100px;
   height: 100px;
   background-color: blue;
-  position: absolute;
-  top: 50px;
-  left: 50px;
+  position: relative;
+  top: 150px;
+  left: -90px;
   border-radius: 20%;
   /* margin: 20px; */
   animation: S 3s infinite linear alternate;
 }
 @keyframes S {
-  0% {background-color: blue; top: 50px; left: 50px}
-  25% {background-color: green; top: 50px; left: 500px;}
-  50% {background-color: red; top: 500px; left: 500px;}
-  75% {background-color: yellow; top: 500px; left: 50px;}
-  100% {background-color: orange; top: 50px; left: 50px;}
+  0% {background-color: blue; top: -150px; left: -90px}
+  25% {background-color: green; top: -150px; left: 300px;}
+  50% {background-color: red; top: 150px; left: 300px;}
+  75% {background-color: yellow; top: 150px; left: -90px;}
+  100% {background-color: orange; top: -150px; left: -90px;}
 }
 .C {
   /* background-color: green; */
   width: 150px;
   height: 150px;
+  position: relative;
   border-radius: 50%;
   animation: C 3s infinite linear alternate;
 }
