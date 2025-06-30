@@ -53,3 +53,7 @@ We want to see your most creative hamburger menu. If you're looking to test your
 13- Centering Divs and Content with CSS Grid and Flex
 
 Center four divs, each with a verying amount of content - and center the content of these divs. Keep all divs the same height.
+
+14- Music Player UI
+
+Create an music player UI with CSS and HTML.
