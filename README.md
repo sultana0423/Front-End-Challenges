@@ -57,3 +57,7 @@ Center four divs, each with a verying amount of content - and center the content
 14- Music Player UI
 
 Create an music player UI with CSS and HTML.
+
+15 - Simple Calculator CSS using Grid
+
+Create a Very Simple Calculator using CSS Grid
