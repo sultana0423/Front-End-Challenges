@@ -17,10 +17,27 @@
  .con {
   width: 50%;
   height: 550px;
+  background: red;
+  /* display: grid; */
+
  }
 
  div {
-  border: solid 4px grey;
+  border: solid 2px grey;
+  width: 100%;
+  height: 90px;
  }
 
- 
+.outputW {
+  background: purple;
+}
+
+#showW {
+  background: aqua;
+  height: 30px;
+}
+
+#output {
+  background: pink;
+  height: 30px;
+}
